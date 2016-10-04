@@ -1,0 +1,21 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "backend webpack",
+  "main": "bin/app.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --progress",
+    "startServer": "node bin/app/app.js"
+  },
+  "author": "vasiliy.liao",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.6.1",
+    "source-map-support": "^0.4.2",
+    "json-loader": "^0.5.4"
+  },
+  "dependencies": {}
+}
